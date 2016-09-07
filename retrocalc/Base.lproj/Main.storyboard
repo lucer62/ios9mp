@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Minecraft.ttf">
+            <string>Minecraft</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -196,13 +201,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSZ-oo-5Zi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSZ-oo-5Zi">
                                 <rect key="frame" x="193" y="141" width="215" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="A02-lE-dsB"/>
                                     <constraint firstAttribute="width" constant="215" id="ds7-lF-UPP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -218,10 +223,10 @@
                             <constraint firstAttribute="trailing" secondItem="JA5-oF-hkR" secondAttribute="trailing" id="YZh-7v-Em4"/>
                             <constraint firstItem="jhP-9R-RLN" firstAttribute="trailing" secondItem="lSZ-oo-5Zi" secondAttribute="trailing" id="YvU-VW-hTf"/>
                             <constraint firstItem="JA5-oF-hkR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bFS-Ff-4Ul"/>
-                            <constraint firstItem="lSZ-oo-5Zi" firstAttribute="top" secondItem="V7I-7y-fZ7" secondAttribute="top" id="bKx-JO-Pgu"/>
+                            <constraint firstItem="lSZ-oo-5Zi" firstAttribute="top" relation="greaterThanOrEqual" secondItem="V7I-7y-fZ7" secondAttribute="top" constant="22" id="bKx-JO-Pgu"/>
                             <constraint firstItem="jhP-9R-RLN" firstAttribute="centerY" secondItem="V7I-7y-fZ7" secondAttribute="centerY" constant="41" id="cwn-RP-INZ"/>
                             <constraint firstItem="jhP-9R-RLN" firstAttribute="centerX" secondItem="V7I-7y-fZ7" secondAttribute="centerX" id="ebg-VM-Jkt"/>
-                            <constraint firstItem="lSZ-oo-5Zi" firstAttribute="trailing" secondItem="V7I-7y-fZ7" secondAttribute="trailing" id="ghu-l3-3s1"/>
+                            <constraint firstItem="lSZ-oo-5Zi" firstAttribute="trailing" secondItem="V7I-7y-fZ7" secondAttribute="trailing" constant="-10" id="ghu-l3-3s1"/>
                             <constraint firstItem="jhP-9R-RLN" firstAttribute="top" secondItem="lSZ-oo-5Zi" secondAttribute="top" id="ljy-Z2-F79"/>
                             <constraint firstItem="jhP-9R-RLN" firstAttribute="top" secondItem="lSZ-oo-5Zi" secondAttribute="top" id="o6p-Gb-4Ra"/>
                             <constraint firstAttribute="trailing" secondItem="CfS-Jq-qPX" secondAttribute="trailing" id="qVs-CI-966"/>
